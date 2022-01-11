@@ -12,6 +12,31 @@
  */
 
 // add the movies variables here ....
+const movie1 = {
+    id: 121,
+    name: "The notebook",
+    image: "https://hips.hearstapps.com/seventeen/assets/15/31/1438124471-the-notebook-2004-copy.jpg",
+    rating: 9,
+}
+
+const movie2 = {
+    id: 144,
+    name: "Don't look up",
+    image: "https://fr.web.img3.acsta.net/pictures/21/11/16/17/11/5656957.jpg",
+    rating: 7,
+}
+
+const movie3 = {
+    id: 195,
+    name: "Night train to lisbon",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Night_Train_to_Lisbon_2013_Poster.jpg/220px-Night_Train_to_Lisbon_2013_Poster.jpg",
+    rating: 9.5,
+
+}
+
+console.log(movie1);
+console.log(movie2);
+console.log(movie3);
 
 /** Task 2:
  * Create an array `movies`
@@ -29,6 +54,28 @@
  *    },
  * ]
  */
+movies = [
+    {
+    id: 121,
+    name: "The notebook",
+    image: "https://hips.hearstapps.com/seventeen/assets/15/31/1438124471-the-notebook-2004-copy.jpg",
+    rating: 9,
+    },
+
+    {
+    id: 144,
+    name: "Don't look up",
+    image: "https://fr.web.img3.acsta.net/pictures/21/11/16/17/11/5656957.jpg",
+    rating: 7,
+    },
+
+    {
+    id: 195,
+    name: "Night train to lisbon",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Night_Train_to_Lisbon_2013_Poster.jpg/220px-Night_Train_to_Lisbon_2013_Poster.jpg",
+    rating: 9.5,
+    },
+] 
 
 /** TASK 3:
  * Create a new file call it `movies.json`
